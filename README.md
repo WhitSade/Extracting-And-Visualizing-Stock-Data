@@ -1,6 +1,3 @@
-# Extracting-And-Visualizing-Stock-Data
-Data Analytics
-
 <h1>Extracting and Visualizing Stock Data</h1>
 
 
