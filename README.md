@@ -21,47 +21,6 @@ My goal is to extract financial data like historical share price and querterly r
 #!pip install plotly
 ```
 
-    Collecting yfinance
-      Downloading yfinance-0.1.55.tar.gz (23 kB)
-    Requirement already satisfied: pandas>=0.24 in c:\users\letme\anaconda3\lib\site-packages (from yfinance) (1.0.5)
-    Requirement already satisfied: numpy>=1.15 in c:\users\letme\anaconda3\lib\site-packages (from yfinance) (1.18.5)
-    Requirement already satisfied: requests>=2.20 in c:\users\letme\anaconda3\lib\site-packages (from yfinance) (2.24.0)
-    Collecting multitasking>=0.0.7
-      Downloading multitasking-0.0.9.tar.gz (8.1 kB)
-    Requirement already satisfied: lxml>=4.5.1 in c:\users\letme\anaconda3\lib\site-packages (from yfinance) (4.5.2)
-    Requirement already satisfied: python-dateutil>=2.6.1 in c:\users\letme\anaconda3\lib\site-packages (from pandas>=0.24->yfinance) (2.8.1)
-    Requirement already satisfied: pytz>=2017.2 in c:\users\letme\anaconda3\lib\site-packages (from pandas>=0.24->yfinance) (2020.1)
-    Requirement already satisfied: idna<3,>=2.5 in c:\users\letme\anaconda3\lib\site-packages (from requests>=2.20->yfinance) (2.10)
-    Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in c:\users\letme\anaconda3\lib\site-packages (from requests>=2.20->yfinance) (1.25.9)
-    Requirement already satisfied: certifi>=2017.4.17 in c:\users\letme\anaconda3\lib\site-packages (from requests>=2.20->yfinance) (2020.6.20)
-    Requirement already satisfied: chardet<4,>=3.0.2 in c:\users\letme\anaconda3\lib\site-packages (from requests>=2.20->yfinance) (3.0.4)
-    Requirement already satisfied: six>=1.5 in c:\users\letme\anaconda3\lib\site-packages (from python-dateutil>=2.6.1->pandas>=0.24->yfinance) (1.15.0)
-    Building wheels for collected packages: yfinance, multitasking
-      Building wheel for yfinance (setup.py): started
-      Building wheel for yfinance (setup.py): finished with status 'done'
-      Created wheel for yfinance: filename=yfinance-0.1.55-py2.py3-none-any.whl size=22622 sha256=c41b7e32f6fd07a97447209533795fed87a6799f08201648d5ee8e308e15c5c3
-      Stored in directory: c:\users\letme\appdata\local\pip\cache\wheels\b4\c3\39\9c01ae2b4726f37024bba5592bec868b47a2fab5a786e8979a
-      Building wheel for multitasking (setup.py): started
-      Building wheel for multitasking (setup.py): finished with status 'done'
-      Created wheel for multitasking: filename=multitasking-0.0.9-py3-none-any.whl size=8374 sha256=7490ad3075bc883ee1fcc605e77d811c587268af9eb5c2590ac81a3c909c39aa
-      Stored in directory: c:\users\letme\appdata\local\pip\cache\wheels\57\6d\a3\a39b839cc75274d2acfb1c58bfead2f726c6577fe8c4723f13
-    Successfully built yfinance multitasking
-    Installing collected packages: multitasking, yfinance
-    Successfully installed multitasking-0.0.9 yfinance-0.1.55
-    Collecting bs4
-      Downloading bs4-0.0.1.tar.gz (1.1 kB)
-    Requirement already satisfied: beautifulsoup4 in c:\users\letme\anaconda3\lib\site-packages (from bs4) (4.9.1)
-    Requirement already satisfied: soupsieve>1.2 in c:\users\letme\anaconda3\lib\site-packages (from beautifulsoup4->bs4) (2.0.1)
-    Building wheels for collected packages: bs4
-      Building wheel for bs4 (setup.py): started
-      Building wheel for bs4 (setup.py): finished with status 'done'
-      Created wheel for bs4: filename=bs4-0.0.1-py3-none-any.whl size=1279 sha256=86475032107b616fe52e937fa063c4fb58a758eb95f9d669762046c6d7d9a459
-      Stored in directory: c:\users\letme\appdata\local\pip\cache\wheels\75\78\21\68b124549c9bdc94f822c02fb9aa3578a669843f9767776bca
-    Successfully built bs4
-    Installing collected packages: bs4
-    Successfully installed bs4-0.0.1
-    
-
 
 ```python
 import yfinance as yf
