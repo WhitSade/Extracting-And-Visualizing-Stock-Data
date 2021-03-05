@@ -10,7 +10,7 @@ Extracting essential data from a dataset and displaying it is a necessary part o
 
 <h2>Objective</h2>
 
-My goal is to extract financial data like historical share price and querterly revenue reportings from various sources using python libraries and webscraping on popular stocks. After collecting this data I will visualize it in a dashboard to identify patterns or trends. Stocks I will work with are Tesla, Amazon, AMD, and GameStop.
+My goal is to extract financial data like historical share price and quarterly revenue reportings from various sources using python libraries and webscraping on popular stocks. After collecting this data I will visualize it in a dashboard to identify patterns or trends. Stocks I will work with are Tesla, Amazon, AMD, and GameStop.
 
 
 ```python
