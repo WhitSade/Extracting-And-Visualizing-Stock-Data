@@ -1,4 +1,4 @@
-<h1>Extracting and Visualizing Stock Data</h1>
+<h1>Extracting Tesla and Gamestop Stock Data</h1>
 
 
 
